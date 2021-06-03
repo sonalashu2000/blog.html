@@ -1,0 +1,323 @@
+# blog.html
+html page of blog page 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .ti{
+        display: grid;
+        grid-template-columns: repeat(2, 600px);
+        grid-template-rows: repeat(6, 300px);
+        padding: 15px;
+    }
+    .sa{
+        line-height: 20px;
+        padding: 15px;
+        border: 0px solid red;
+    }
+    a{
+        text-decoration: none;
+        color: tomato;
+    }
+    a:hover{
+        color: violet;
+    }
+    h3:hover{
+        color: pink;
+    }
+    .img{
+        margin-top: 10%;
+    }
+    .img{
+        animation: zoom 3s linear infinite;
+    }
+    @keyframes zoom{
+        100%{
+            width: 100%;
+        }
+         50%{
+           width: 10%;  
+        } 
+
+    }
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+</style>
+</head>
+<body>
+    <h1><center>BLOG</center></h1>
+    <div class="ti">
+        <div class="so">
+            <center> <img src="WhatsApp Image 2021-06-01 at 18.54.14.jpeg" height="250px" width="300px"> </center>
+        </div>
+       
+        <div class="sa"><h3>Technology</h3> <h1><a href="https://www.booksluva.com/power-of-compounding/">power of Compounding</a></h1><br>Compounding is the 8th Wonder of the world. He who Understand it, earns it; he who doesn�t, pays it.�     The word compounding means that the initial returns or interest that you earned on investment becomes part of the invested capital or principle..</div>
+
+        <div class="so">
+            <center><img src="WhatsApp Image 2021-06-01 at 18.59.09.jpeg" width="300px" height="250px"></center>
+        </div>
+       
+        <div class="sa"><h3>uncategorized</h3> <h1><a href="https://www.booksluva.com/introduction-to-orange-data-mining-tool/">orange- data mining tool</a></h1><br>" Torturing data until it confesses ... and if you torture it enough, it will confess to anything " - Jeff Jonas, IBM Introduction In this Modern Era, a term… </div>
+   
+        <div class="so">
+            <center><img src="WhatsApp Image 2021-06-01 at 19.02.02.jpeg" width="300px" height="250px"></center>
+        </div>
+       
+        <div class="sa"><h3>marketing</h3> <h1><a href="https://www.booksluva.com/what-is-flutter/">flutter</a></h1><br>" FLUTTER It is an Open source UI software development toolkit which is developed by Google . It is a Framework which allows you to build native Cross palteform (Android ,IOS… "" </div>
+    
+        <div class="so">
+            <center><img src="WhatsApp Image 2021-06-01 at 18.55.54.jpeg" width="300px" height="250px"></center>
+        </div>
+       
+        <div class="sa"><h3>marketing</h3> <h1><a href="https://www.booksluva.com/reasons-to-take-up-a-cloud-computing-workshop/">cloud computing</a></h1><br>"Cloud computing Workshop can help clearly define who is qualified to support an organization’s cloud needs. These Workshop can also ensure that IT teams are trained to work with the… "</div>
+   
+        <div class="so">
+            <center><img src="WhatsApp Image 2021-06-01 at 18.58.39.jpeg" width="300px" height="250px"></center>
+        </div>
+       
+        <div class="sa"><h3>marketing</h3> <h1><a href="https://www.booksluva.com/mitra/">mITra</a></h1><br>" Books are our best MITra GOOD FRIENDS, GOOD BOOKS, AND A SLEEPY CONSCIENCE: THIS IS THE IDEAL LIFE - MARK TWAIN Life is not easy to live without friends. When… "</div>
+    
+        <div class="so">
+            <center><img src="WhatsApp Image 2021-06-01 at 18.57.59.jpeg" width="300px" height="250px"></center>
+        </div>
+       
+        <div class="sa"><h3>marketing</h3> <h1><a href="https://www.booksluva.com/blog-booksluva/">BOOKSLUVA- The Virtual Bookstore</a></h1><br>"BooksLuva is an inimitable platform to Buy/Sell/Renting College books. Our Journey The journey started from the year 2017 by hand in hand delivery of books to engineering students after knowing… "" </div>
+    </div>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3><span>BooksLuva</span></h3>
+      <p style="color: white;">It is a proud moment to say that BooksLuva is the first start-up of GEC, Patan to get a
+        Start-up fund under SSIP Policy of Government of Gujarat.</p>
+
+      <p class="footer-links">
+        <a href="#">Home</a>
+        |
+        <a href="#">Blog</a>
+        |
+        <a href="#">About</a>
+        |
+        <a href="#">Shop</a>
+        |
+        <a href="#">Contact</a>
+
+      </p>
+
+      <p class="footer-company-name">© Swastik Library BooksLuva</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Vastrapur</span>
+          Ahmedabad</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>9974792746</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="">kanhapal39@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the company</span>
+        BooksLuva is an inimitable platform to Buy/Sell/Renting College books.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </footer>
+</body>
+</html>
+
